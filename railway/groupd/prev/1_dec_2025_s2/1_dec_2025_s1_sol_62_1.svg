@@ -1,0 +1,36 @@
+<svg width="213" height="186" xmlns="http://www.w3.org/2000/svg" viewBox="100 50 400 450">
+  <defs>
+    <!-- Definition of a clean, professional arrowhead -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000" />
+    </marker>
+  </defs>
+
+  <!-- Central Circle: Clean, professional monochrome outline -->
+  <circle cx="300" cy="250" r="100" fill="none" stroke="#000000" stroke-width="2" />
+
+  <!-- Top Arrow: Double-headed as per the sketch (pointing both in and out) -->
+  <line x1="300" y1="100" x2="300" y2="200" stroke="#000000" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+
+  <!-- Top-Right Arrow: Pointing inward -->
+  <line x1="406" y1="144" x2="335" y2="215" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Right Arrow: Pointing inward -->
+  <line x1="450" y1="250" x2="350" y2="250" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Bottom-Right Arrow: Pointing inward -->
+  <line x1="406" y1="356" x2="335" y2="285" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Bottom Arrow: Pointing inward -->
+  <line x1="300" y1="400" x2="300" y2="300" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Left Arrow: Pointing inward -->
+  <line x1="150" y1="250" x2="250" y2="250" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Top-Left Arrow: Pointing inward -->
+  <line x1="194" y1="144" x2="265" y2="215" stroke="#000000" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Labels: Preserving all characters with clear, professional typography -->
+  <text x="440" y="110" font-family="Arial, sans-serif" font-size="30px" text-anchor="middle" fill="#000000">w</text>
+  <text x="300" y="460" font-family="Arial, sans-serif" font-size="30px" text-anchor="middle" fill="#000000">x</text>
+</svg>

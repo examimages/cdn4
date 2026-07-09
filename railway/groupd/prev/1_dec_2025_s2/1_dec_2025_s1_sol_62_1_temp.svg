@@ -1,0 +1,41 @@
+<svg width="213" height="186" xmlns="http://www.w3.org/2000/svg">
+  <svg viewBox="0 0 600 650" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+    <!-- Define arrowhead marker -->
+    <defs>
+      <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000" />
+      </marker>
+    </defs>
+
+    <!-- Main central circle -->
+    <circle cx="300" cy="300" r="120" fill="none" stroke="#000000" stroke-width="3" />
+
+    <!-- Inward pointing arrows -->
+    <!-- Left -->
+    <line x1="100" y1="300" x2="260" y2="300" stroke="#000000" stroke-width="2.5" marker-end="url(#arrow)" />
+    
+    <!-- Top-Left -->
+    <line x1="160" y1="160" x2="270" y2="270" stroke="#000000" stroke-width="2.5" marker-end="url(#arrow)" />
+
+    <!-- Top (Double-headed: one out, one in) -->
+    <line x1="300" y1="210" x2="300" y2="50" stroke="#000000" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+
+    <!-- Top-Right -->
+    <line x1="440" y1="160" x2="330" y2="270" stroke="#000000" stroke-width="2.5" marker-end="url(#arrow)" />
+
+    <!-- Right -->
+    <line x1="500" y1="300" x2="340" y2="300" stroke="#000000" stroke-width="2.5" marker-end="url(#arrow)" />
+
+    <!-- Bottom-Right -->
+    <line x1="440" y1="440" x2="330" y2="330" stroke="#000000" stroke-width="2.5" marker-end="url(#arrow)" />
+
+    <!-- Bottom -->
+    <line x1="300" y1="520" x2="300" y2="360" stroke="#000000" stroke-width="2.5" marker-end="url(#arrow)" />
+
+    <!-- Labels -->
+    <!-- 'w' label near top-right arrow -->
+    <text x="480" y="140" font-family="Arial, sans-serif" font-size="30px" font-weight="bold" text-anchor="middle" fill="#000000">w</text>
+
+    <!-- 'x' label below bottom arrow -->
+    <text x="300" y="600" font-family="Arial, sans-serif" font-size="30px" font-weight="bold" text-anchor="middle" fill="#000000">x</text>
+  </svg>
